@@ -1,5 +1,5 @@
 {% set name = "metget" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/waterinstitute/MetGet/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 3b5051457dc9621ff0d2eb846ccc81f026eb754994fbce2441a3070a80f5c66b
+  sha256: 5f199a3c2b4b078dfd4d93bfdc17f99672f31a114a10804fdad194cab0831edc
 
 build:
   entry_points:
